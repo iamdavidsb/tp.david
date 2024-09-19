@@ -1,0 +1,182 @@
+body {
+
+
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: burlywood;
+    position: relative;
+    
+}
+
+
+.getLogin {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 555px;
+    width: 450px;
+    position: relative;
+    left: 420px;
+    bottom: 30px;
+    border-radius: 1%;
+    text-align: center;
+    display: block;
+
+}
+
+
+
+
+.nameNetflix {
+    color: floralwhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    text-decoration:none;
+    position: relative;
+    left: 20px;
+
+}
+
+.emailInput {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: hidden;
+    width: 75%;
+    height: 50px;
+    top: 10%;
+    background-color:transparent;
+}
+
+
+.passeword {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 75%;
+    height: 50px;
+    border-style:hidden;
+    top: 13%;
+    background-color: transparent;
+
+}
+
+.titreBox {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    text-align: start;
+    left: 13%;
+    top: 10%;
+    font-size: 175%;
+
+}
+
+.seConnecter {
+    position: relative;
+    width: 75%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: red;
+    border-radius: 5px;
+    font-size: large;
+    top: 25%;
+    left: 10px;
+
+}
+
+.seConnecter:hover {
+    transform: scale(1.07);
+    transition: 0.2s  ease;
+}
+
+.passeword:hover {
+    transform: scale(1.07);
+    transition: 0.2s  ease;
+}
+
+.emailInput:hover {
+    transform: scale(1.07);
+    transition: 0.2s  ease;
+}
+
+
+
+.getRemember {
+
+    position: relative;
+    top: 230px;
+    right: 330px;
+    color: dimgray;
+    border-radius: 1%;
+    height: 30px;
+    
+}
+
+.barre {
+
+    color: black;
+    position: relative;
+    top: 240px;
+
+}
+
+.visite {
+    color: dimgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: 260px;
+    right:20px;
+}
+.register {
+
+    color: white;
+    text-decoration:wavy;
+}
+.register:hover {
+    text-decoration: underline;
+}
+
+.needHelp {
+    color: dimgray;
+    position: relative;
+    top:100px;
+    left:120px;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.needHelp:hover {
+    text-decoration: underline;
+    
+}
+
+.footer {
+    background-color: black ;
+    height: 200px;
+    width: 100%;
+    border-color: white;
+   border-style:outset;
+   border-width: 100%;
+   border-radius: 10px;
+}
+
+.btnNetflix {
+    position: relative;
+    color: white;
+
+}
+
+.test {
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    top: 185px;  
+    right:70px; 
+
+}
