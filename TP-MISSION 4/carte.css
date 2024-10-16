@@ -1,0 +1,60 @@
+/* Nom: Votre Nom | Prénom: Votre Prénom */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Utilise toute la hauteur de la fenêtre */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.container {
+    text-align: center; /* Centre le texte */
+    background-color: #fff; /* Fond blanc pour la carte */
+    border-radius: 10px; /* Bords arrondis */
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre pour un effet 3D */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em; /* Taille du nom */
+}
+
+header h2 {
+    margin: 10px 0 20px; /* Espacement autour du sous-titre */
+    font-size: 1.2em; /* Taille du titre de poste */
+}
+
+main p {
+    margin: 20px 0; /* Espacement autour de la description */
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    margin: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    color: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1, header h2 {
+        font-size: 1.5em;
+    }
+}
