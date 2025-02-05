@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte de visite - David SABOU</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1f1c2c, #928DAB);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        /* Card Styles */
+        .carte {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .carte:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .carte h2 {
+            font-size: 26px;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .carte h3 {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .carte p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        /* Links Styling */
+        .carte ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .carte ul li {
+            margin: 10px 0;
+        }
+
+        .carte ul li a {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 16px;
+            font-weight: 500;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .carte ul li a:hover {
+            color: #2980b9;
+        }
+
+        /* Button */
+        .retour {
+            text-decoration: none;
+            color: #fff;
+            background: #3498db;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .retour:hover {
+            background: #2980b9;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="carte">
+        <h2>David SABOU</h2>
+        <h3>Développeur Web</h3>
+        <p>📞 Téléphone : +33 06.26.06.75.46</p>
+        <p>📧 Email : saboudavid1@gmail.com</p>
+        <ul>
+            <li><a href="https://linkedin.com/" target="_blank">🔗 LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">📷 Instagram</a></li>
+            <li><a href="https://github.com/" target="_blank">💻 GitHub</a></li>
+        </ul>
+    </section>
+
+    <a class="retour" href="index.html">Retour en arrière</a>
+
+</body>
+</html>
