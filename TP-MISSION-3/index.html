@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Navigation</title>
+    <style>
+        /* Reset et styles globaux */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Animation d'apparition */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Conteneur */
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Liens stylisés */
+        .menu a {
+            display: block;
+            font-size: 20px;
+            color: #007bff;
+            text-decoration: none;
+            padding: 15px;
+            margin: 10px 0;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            background: #007bff;
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Menu de Navigation</h2>
+        <div class="menu">
+            <a href="formulaire.html">Formulaire d'inscription</a>
+            <a href="carte2visite.html">Carte de visite</a>
+            <a href="../mission.html">Retour en arrière</a>
+        </div>
+    </div>
+
+</body>
+</html>
