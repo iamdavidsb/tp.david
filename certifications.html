@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <style>
+        /* Reset et styles globaux */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* Animation d'apparition */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* En-tête */
+        .main-header {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .main-header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Conteneur */
+        .table-container {
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Table stylisée */
+        .table {
+            border-radius: 12px;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .table:hover {
+            transform: scale(1.05);
+        }
+
+        .table-row {
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 8px;
+            margin: 5px 0;
+            background: white;
+            color: #333;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .table-row:hover {
+            background: #ff8c00;
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Liens */
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: bold;
+        }
+
+        /* Pied de page */
+        footer {
+            margin-top: 20px;
+            font-size: 16px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        footer a:hover {
+            background: white;
+            color: #2575fc;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>CERTIFICATIONS</h1>
+    </header>
+
+    <div class="table-container">
+        <div class="table">
+            <div class="table-row"><a href="MOOC.pdf">MOOC ANSSI Cybersécurité</a></div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="index.html">Retour à l'accueil</a>
+    </footer>
+
+</body>
+</html>
