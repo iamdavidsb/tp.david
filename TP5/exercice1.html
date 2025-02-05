@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <style>
+        /* Fond en dégradé */
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Style des blocs */
+        .block1, .block2, .block3 {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 25px;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            font-size: 22px;
+            transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+        }
+
+        .block1:hover, .block2:hover, .block3:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Image stylisée */
+        .fleurs {
+            width: 120px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        /* Lien retour */
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            background: #ff4d6d;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        a:hover {
+            background: #c9184a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="block1"><p>Je m'appelle David Sabou</p></div>
+    <div class="block2"><p>BTS SIO SLAM</p></div>
+    <div class="block3"><img src="img.jpg" class="fleurs"></div>
+    <br>
+    <a href="index.html">Retour en arrière</a>
+
+</body>
+</html>

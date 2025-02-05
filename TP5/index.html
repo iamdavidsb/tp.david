@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            margin: 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            background: white;
+            color: black;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            transition: 0.3s;
+            font-size: 18px;
+        }
+        td {
+            background-color: #f8f9fa;
+        }
+        tr:hover td {
+            background-color: #e9ecef;
+        }
+        td a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        .retour {
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            background: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .retour:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Liste des Exercices</h1>
+    <table>
+        <tr>
+            <td><a href="exercice1.html">Exercice n°1</a></td>
+        </tr>
+        <tr>
+            <td><a href="exercice2.html">Exercice n°2</a></td>
+        </tr>
+    </table>
+    <a class="retour" href="../tp.html">Retour en arrière</a>
+</body>
+</html>
